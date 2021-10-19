@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="Art-style.css">
+        <title>Art-in-Kazakhstan</title>  
+        <style>
+
+.content {
+    height: 100vh;
+    background-image: url(https://files.kazakhstan.travel/files/public/201812/24/d5aa313a9e01489e92ffa201da1987db/turkertan-historical.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.table-food {
+    padding: 0 15% ;
+}
+.content h1, p{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10%;
+    font-size: 4vw;
+    color: rgb(251, 248, 239);
+}
+.content p {
+    font-size: 2vw;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+@media screen and (min-width: 601px) {
+    .content p {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .content p {
+      font-size: 15px;
+    }
+  }
+.content-food {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 15%;
+    font-size: 4vw;
+    color: rgb(251, 248, 239);
+}
+
+@media (max-width: 850px) {
+    #gallery {
+        background-color: turquoise;
+        flex-direction: column;
+        
+        width: 100%;
+        
+
+    }
+    .col-3{
+        width: 100%;
+    }
+
+
+}
+.col-3 h1{
+    text-align: center;
+}
+
+#gallery div h1 {
+    font-size: 100%;
+    color: rgb(212, 198, 214);
+}
+#gallery div img {
+    width: 250px;
+    height: 150px;
+
+}
+.paintings {
+    padding: 0 15%;
+    color: hsla(344, 96%, 98%, 0.91);
+    font-size: 130%;
+}
+
+body {
+    background: url(https://kazakhstan.travel/static/images/bg-shape-3.svg) #67a1d6;
+}
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: rgb(170, 209, 231);
+    overflow: hidden;
+    justify-content: space-between;
+    
+
+}
+.navs a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3.5vw;
+}
+.navs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: 4%;
+    padding-left:  12px;
+}
+        </style>
+    </head>
+    <body>
+        <div class="header">
+ 
+            <a style="padding-bottom: 1%;" href="/Main.html"><button class="btn btn-info" style="margin-top: 3vh;margin-left: 2vw;">Main Page</button></a>
+      
+       
+        <div class="navs">
+            <a href="">Home</a>
+            <a href="#table">Table</a>
+            <a href="#photo">Photo</a>
+        </div>
+       
+    
+        </div>
+
+        <div class="content"> 
+            <h1> Discover amazing Kazakhstan </h1>
+
+            <p style="padding-right: 15%;"> The art of Kazakhstan covers all forms of art created throughout history by the peoples living on the territory of modern-day Kazakhstan. Throughout most periods, much of the population of Kazakhstan was nomadic, or at least moved regularly across the vast country.</p>
+        </div>
+
+        <div class="content-food">
+            <h1> Famous Kazakh Artists </h1>
+        </div>
+        <div class="table-food" id="table">
+            <table class="table caption-top table-hover table-striped table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">№</th>
+                <th scope="col">Name</th>
+                <th scope="col">Short Biography</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Abilkhan Kasteev</td>
+                <td>Kazakhstani painter. He was highly decorated, winning the National Artist of Kazakh SSR </td>
+                
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Agimsaly Duzelkhanov</td>
+                <td>Kazakhstani artist. Born in Kazalinsk in Kyzyl-Orda oblast, he graduated from Almaty Art College and Moscow State Institute.</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Aisha Garifkyzy Galimbaeva</td>
+                <td>Kazakhstani painter and educator. She is noted for her colourful and realistic depictions of women's changing position in the Soviet Bloc in the mid-20th century.</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Zhenis Kakenuly Nurlybayev</td>
+                <td> Kazakh painter, art critic and author of the сulture support Year emblem in Kazakhstan, laureate of The presidential grant of The Republic of Kazakhstan.</td>
+                
+              </tr>
+            </tbody>
+          </table>
+          </div>
+          <div class="paintings" id="photo">
+            
+                <h1 class="table-food"> Masterpieces of architectural art of Kazakhstan </h1>
+                <br><br>
+                <div class="row" id="gallery">
+                    <div class="col-3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/%D0%90%D0%BA%D0%BE%D1%80%D0%B4%D0%B0_-_%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D1%8F_%D0%BF%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0_-_panoramio.jpg/330px-%D0%90%D0%BA%D0%BE%D1%80%D0%B4%D0%B0_-_%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D1%8F_%D0%BF%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0_-_panoramio.jpg">
+                        <h1>Residence of the President</h1>
+                    </div>
+        
+                    <div class="col-3">
+                        
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/%D0%9C%D0%B0%D1%83%D0%B7%D0%BE%D0%BB%D0%B5%D1%98_%D0%A5%D0%BE%D0%B4%D0%B6%D0%B5_%D0%90%D1%85%D0%BC%D0%B5%D0%B4%D0%B0_%D0%88%D0%B0%D1%81%D0%B0%D0%B2%D0%B8%D1%98%D0%B0_%28%D0%B3%D1%80%D0%B0%D0%B4_%D0%A2%D1%83%D1%80%D0%BA%D0%B5%D1%81%D1%82%D0%B0%D0%BD%2C_%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%29.jpg/330px-%D0%9C%D0%B0%D1%83%D0%B7%D0%BE%D0%BB%D0%B5%D1%98_%D0%A5%D0%BE%D0%B4%D0%B6%D0%B5_%D0%90%D1%85%D0%BC%D0%B5%D0%B4%D0%B0_%D0%88%D0%B0%D1%81%D0%B0%D0%B2%D0%B8%D1%98%D0%B0_%28%D0%B3%D1%80%D0%B0%D0%B4_%D0%A2%D1%83%D1%80%D0%BA%D0%B5%D1%81%D1%82%D0%B0%D0%BD%2C_%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%29.jpg">
+                        <h1>Mausoleum of Khoja Ahmed Yasawi</h1>
+                    </div>
+        
+                    <div class="col-3">
+                        
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/ALA_GATOB_ABAI.JPG/330px-ALA_GATOB_ABAI.JPG">
+                        <h1>Abay Opera House
+                        </h1>
+                    </div>
+        
+                    <div class="col-3">
+                        
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Aisha_bibi.png/315px-Aisha_bibi.png">
+
+                        <h1>Aisha Bibi</h1>
+                    </div>
+                </div>
+          </div>
+
+    </body>
+</html>

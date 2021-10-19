@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Main</title>
+
+    <style>
+        body{
+            margin: 0;
+background-color: white;
+            
+
+        }
+        
+
+
+        @media screen and (max-width:800px) {
+            .about_class{
+                
+                width: 100%;
+            }
+        }
+
+
+        .about_img{
+            width: 50%;
+            height: 50%;
+        }
+ 
+    .about_class{
+        display: flex;
+        height: 40vh;
+        width: 100%;
+        
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_container{
+        display: flex;
+        
+    }
+
+    @media (max-width: 1024px) {
+        .about_container{
+            flex-direction: column;
+            padding:0% 0%;
+}
+    }
+    .footer{
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+        
+}
+.about_class a:hover{
+    color: aqua;
+}
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: rgb(170, 209, 231);
+    overflow: hidden;
+    justify-content: space-between;
+    
+
+}
+.navs a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3.5vw;
+}
+.navs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: 4%;
+    padding-left:  12px;
+}
+
+    </style>
+</head>
+<body>
+    
+       
+    <div class="header">
+ 
+        <a style="padding-bottom: 1%;" href="/Main.html"><button class="btn btn-info" style="margin-top: 3vh;margin-left: 2vw;">Main Page</button></a>
+  
+   
+    <div class="navs">
+        <a href="">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+   
+
+    </div>
+    
+
+    <div style="background-image: url(https://caspiannews.com/media/caspian_news/all_original_photos/1561729676_1723707_1561729671_2614951yotxmgm2tf21.jpg);
+    background-repeat: no-repeat;height: 100vh;width: 100%;background-size: cover;display:flex;align-items: center;justify-content: center;">
+        <h1 style="font-size: 4.5vw; color: white; margin-top: 0%;">
+            Kazakhstan is a country with the best beauty.
+        </h1>
+    </div>
+
+    <hr style="margin: 0%;">
+
+<div id="about" style="background-color: whitesmoke;">
+    <h1 style=" margin-left: 2%;  font-size: 2,5vw; color: black;">About</h1>
+    <div class="about_container" style="margin-left: 3%;">
+        <div class="about_class" >
+           
+            <a style="font-size: 2.1vw; color: black;text-decoration: none;" href="/Medicine.html">Medicine</a>
+            <img class="about_img"src="https://strategy2050.kz/upload/iblock/dba/b7e8f2624dd310b56a80d2a70aa2c449.jpg" alt="">
+        </div>
+
+        <div class="about_class">
+            <a style="font-size: 2.1vw; color: black;text-decoration: none;" href="/Tradition.html">Tradition</a>
+            
+            <img class="about_img"src="https://1.bp.blogspot.com/-ATqQh1VKIww/WlnYET2mlKI/AAAAAAAANkg/o4yTWd91044Nn-DCkloYtNkY8ISjfi_KACLcBGAs/s1600/maxresdefault.jpg" alt="">
+        </div>
+
+        <div class="about_class">
+            
+            <a style="font-size: 2.1vw; color: black;text-decoration: none;" href="/Sport.html">Sport</a>
+            <img class="about_img"src="https://astanatimes.com/wp-content/uploads/2015/12/IMG_3433.jpg" alt="">
+        </div>
+
+        <div class="about_class">
+            <a style="font-size: 2.1vw; color: black;text-decoration: none;" href="/Art.html">Art</a>
+            <img class="about_img"src="https://voicesoncentralasia.org/wp-content/uploads/2018/10/10.jpg" alt="">
+        </div>
+    </div>
+    
+</div>
+<hr>
+<div id="contact" class="container mt-3" style="background-color: rgba(107, 145, 237, 0.74);">
+    <h2>Feedback</h2>
+    <p>Dear users! Here you can write inquiries
+        on technical issues, reviews and
+        recommend improvements to the portal</p>
+    <form>
+      <div class="form-floating mb-3 mt-3">
+        <input type="text" class="form-control" placeholder="Enter email">
+      </div>
+      <div class="form-floating mt-3 mb-3">
+        <input type="text" class="form-control" placeholder="Enter password">
+      </div>
+      <div class="form-floating mb-3 mt-3">
+        <textarea class="form-control" name="text" placeholder="Here you can write your comments"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <div class="footer">
+      <br>
+    <p> <strong>© 2021 All Rights Reserved</strong></p>
+  </div>
+</body>
+</html>
